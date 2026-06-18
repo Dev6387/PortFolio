@@ -307,13 +307,15 @@ main,
 .projects-section,
 .education-section,
 .site-footer {
-  background: var(--navy);
+  background: rgba(11, 17, 32, 0.85);
+  backdrop-filter: blur(8px);
 }
 
 .skills-section,
 .certifications-section,
 .contact-section {
-  background: var(--bg);
+  background: rgba(3, 7, 18, 0.85);
+  backdrop-filter: blur(8px);
 }
 
 .hero {
