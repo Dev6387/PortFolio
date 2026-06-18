@@ -27,7 +27,6 @@ async function main() {
     renderPage(siteData);
     initNavigation();
     initProjectFilters(siteData);
-    initContactForm();
     initRevealAnimations();
     initCounters();
     initStarfield();
@@ -305,27 +304,6 @@ function initProjectFilters(data) {
       renderProjects(data.projects, button.dataset.filter);
       grid.classList.remove("is-filtering");
     }, 180);
-  });
-}
-
-function initContactForm() {
-  const form = document.querySelector("#contactForm");
-  const button = document.querySelector("#contactSubmit");
-
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    button.disabled = true;
-    button.textContent = "Sending...";
-
-    window.setTimeout(() => {
-      form.reset();
-      button.innerHTML = `${icon("check")} Message Sent!`;
-
-      window.setTimeout(() => {
-        button.disabled = false;
-        button.textContent = "Send Message";
-      }, 2600);
-    }, 900);
   });
 }
 
