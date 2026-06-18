@@ -67,15 +67,10 @@ function renderPage(data) {
 function renderNavigation(data) {
   const desktop = document.querySelector("#desktopNavLinks");
   const mobile = document.querySelector("#mobileMenu");
-  const resumeLinks = [document.querySelector("#navResume")];
   const links = data.navigation.map((link) => navLink(link)).join("");
 
   desktop.innerHTML = links;
-  mobile.innerHTML = `${links}<a class="nav-resume" href="${attr(data.profile.resume)}" target="_blank" rel="noopener">Resume</a>`;
-
-  resumeLinks.forEach((link) => {
-    if (link) link.href = data.profile.resume;
-  });
+  mobile.innerHTML = `${links}`;
 }
 
 function navLink(link) {
@@ -91,9 +86,6 @@ function renderHero(data) {
     <span>${escapeHtml(data.profile.lastName)}</span>
   `;
   document.querySelector("#heroActions").innerHTML = `
-    <a class="primary-btn" href="${attr(data.profile.resume)}" target="_blank" rel="noopener">
-      ${icon("download")} Download Resume
-    </a>
     <a class="ghost-btn" href="#contact">
       Contact Me ${icon("arrow")}
     </a>
