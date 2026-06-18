@@ -26,7 +26,7 @@
   "social": [
     {
       "label": "GitHub",
-      "href": "https://github.com/devanshvishwakarma",
+      "href": "https://github.com/Dev6387",
       "icon": "github"
     },
     {
@@ -89,7 +89,7 @@
       "description": "Developed a phishing detection system using URL analysis and feature extraction. Improved suspicious link identification using rule-based techniques and machine learning.",
       "tags": ["Python", "ML", "Cybersecurity"],
       "image": "./images/project-phishing.jpg",
-      "github": "https://github.com/devanshvishwakarma"
+      "github": "https://github.com/Dev6387"
     },
     {
       "title": "Crop Recommendation Web App",
@@ -97,7 +97,7 @@
       "description": "Built a crop recommendation system using soil and environmental parameters with an interactive web interface for farmers.",
       "tags": ["Python", "ML", "Web"],
       "image": "./images/project-crop.jpg",
-      "github": "https://github.com/devanshvishwakarma"
+      "github": "https://github.com/Dev6387"
     },
     {
       "title": "AI Tic Tac Toe",
@@ -105,7 +105,7 @@
       "description": "Developed an intelligent AI opponent using the minimax algorithm with alpha-beta pruning, built with Python and Tkinter GUI.",
       "tags": ["Python", "AI", "Game"],
       "image": "./images/project-tictactoe.jpg",
-      "github": "https://github.com/devanshvishwakarma"
+      "github": "https://github.com/Dev6387"
     },
     {
       "title": "LAN Connect",
@@ -113,7 +113,7 @@
       "description": "A LAN-based communication platform supporting local device connectivity and real-time messaging without internet.",
       "tags": ["Python", "Networking", "Socket"],
       "image": "./images/project-lan.jpg",
-      "github": "https://github.com/devanshvishwakarma"
+      "github": "https://github.com/Dev6387"
     }
   ],
   "certifications": [
