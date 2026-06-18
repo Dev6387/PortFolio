@@ -1,0 +1,187 @@
+{
+  "profile": {
+    "initials": "DV",
+    "firstName": "Devansh",
+    "lastName": "Vishwakarma",
+    "title": "AI and Machine Learning Engineer",
+    "subtitle": "AI and Machine Learning Engineer | Python Developer | Cybersecurity Enthusiast",
+    "email": "dev2005v@gmail.com",
+    "phone": "+91 XXXXX XXXXX",
+    "location": "Prayagraj, Uttar Pradesh, India",
+    "resume": "./resume.pdf",
+    "image": "./images/profile-photo.jpeg",
+    "imageAlt": "Devansh Vishwakarma"
+  },
+  "navigation": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Certifications", "href": "#certifications" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "label": "Artificial Intelligence and Machine Learning",
+    "description": "Final-year B.Tech student passionate about Artificial Intelligence, Machine Learning, Cybersecurity, and Software Development. Skilled in building intelligent applications, problem-solving, and creating impactful technology solutions."
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/devanshvishwakarma",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://linkedin.com/in/devanshvishwakarma",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:dev2005v@gmail.com",
+      "icon": "mail"
+    }
+  ],
+  "about": {
+    "heading": "Bridging the gap between intelligence and implementation",
+    "paragraphs": [
+      "I'm a final-year B.Tech student at United Institute of Technology, Prayagraj, specializing in Artificial Intelligence and Machine Learning. My journey in tech is driven by a relentless curiosity about how intelligent systems can solve real-world problems.",
+      "With a strong foundation in Python, Data Structures, and Machine Learning, I've built projects ranging from phishing detection systems to AI-powered games. I'm particularly fascinated by the intersection of cybersecurity and AI - how machine learning can fortify digital defenses.",
+      "Currently preparing for GATE 2027, I'm committed to deepening my understanding of Computer Science fundamentals while staying at the cutting edge of AI research and application."
+    ],
+    "stats": [
+      { "value": 6.03, "label": "CGPA", "suffix": "", "decimals": 2 },
+      { "value": 4, "label": "Projects", "suffix": "+", "decimals": 0 },
+      { "value": 2, "label": "Certifications", "suffix": "", "decimals": 0 }
+    ]
+  },
+  "skills": [
+    {
+      "icon": "code",
+      "name": "Programming Languages",
+      "items": ["Python", "Java", "C", "SQL"]
+    },
+    {
+      "icon": "cpu",
+      "name": "Core CS",
+      "items": ["Data Structures and Algorithms", "OOP", "DBMS", "Computer Networks", "Operating Systems"],
+      "wide": true
+    },
+    {
+      "icon": "brain",
+      "name": "AI and ML",
+      "items": ["Machine Learning", "Feature Engineering", "Data Preprocessing"]
+    },
+    {
+      "icon": "wrench",
+      "name": "Tools and Platforms",
+      "items": ["Git", "GitHub", "VS Code", "PyCharm"]
+    },
+    {
+      "icon": "globe",
+      "name": "Web Development",
+      "items": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "projectFilters": ["All", "AI/ML", "Web Dev", "Security"],
+  "projects": [
+    {
+      "title": "Phishing Detection System",
+      "category": "Security",
+      "description": "Developed a phishing detection system using URL analysis and feature extraction. Improved suspicious link identification using rule-based techniques and machine learning.",
+      "tags": ["Python", "ML", "Cybersecurity"],
+      "image": "./images/project-phishing.jpg",
+      "github": "https://github.com/devanshvishwakarma"
+    },
+    {
+      "title": "Crop Recommendation Web App",
+      "category": "AI/ML",
+      "description": "Built a crop recommendation system using soil and environmental parameters with an interactive web interface for farmers.",
+      "tags": ["Python", "ML", "Web"],
+      "image": "./images/project-crop.jpg",
+      "github": "https://github.com/devanshvishwakarma"
+    },
+    {
+      "title": "AI Tic Tac Toe",
+      "category": "AI/ML",
+      "description": "Developed an intelligent AI opponent using the minimax algorithm with alpha-beta pruning, built with Python and Tkinter GUI.",
+      "tags": ["Python", "AI", "Game"],
+      "image": "./images/project-tictactoe.jpg",
+      "github": "https://github.com/devanshvishwakarma"
+    },
+    {
+      "title": "LAN Connect",
+      "category": "Web Dev",
+      "description": "A LAN-based communication platform supporting local device connectivity and real-time messaging without internet.",
+      "tags": ["Python", "Networking", "Socket"],
+      "image": "./images/project-lan.jpg",
+      "github": "https://github.com/devanshvishwakarma"
+    }
+  ],
+  "certifications": [
+    {
+      "date": "Aug 2024",
+      "title": "Python for Data Science Summer Training",
+      "provider": "United Institute of Technology",
+      "duration": "60 Hours",
+      "side": "left"
+    },
+    {
+      "date": "Aug 2025",
+      "title": "Cyber Security Summer Training",
+      "provider": "United Institute of Technology",
+      "duration": "60 Hours",
+      "side": "right"
+    }
+  ],
+  "education": [
+    {
+      "years": "2023-2027",
+      "institution": "United Institute of Technology, Prayagraj",
+      "degree": "B.Tech in Artificial Intelligence and Machine Learning",
+      "grade": "6.03 CGPA"
+    },
+    {
+      "years": "2021-2022",
+      "institution": "LDC Public School",
+      "degree": "Class XII (Senior Secondary)",
+      "grade": "62%"
+    },
+    {
+      "years": "2019-2020",
+      "institution": "LDC Public School",
+      "degree": "Class X (Secondary)",
+      "grade": "67.2%"
+    }
+  ],
+  "contact": {
+    "heading": "Get in Touch",
+    "text": "I'm always open to discussing new projects, research opportunities, or collaborations in AI and machine learning.",
+    "items": [
+      {
+        "label": "dev2005v@gmail.com",
+        "href": "mailto:dev2005v@gmail.com",
+        "icon": "mail"
+      },
+      {
+        "label": "+91 XXXXX XXXXX",
+        "href": "",
+        "icon": "phone"
+      },
+      {
+        "label": "Prayagraj, Uttar Pradesh, India",
+        "href": "",
+        "icon": "map"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "AI and ML Engineer",
+    "credit": "Designed and developed by Devansh Vishwakarma",
+    "copyright": "2025 Devansh Vishwakarma. All rights reserved.",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  }
+}

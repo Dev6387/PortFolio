@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Devansh Vishwakarma - AI and Machine Learning Engineer, Python Developer, and Cybersecurity Enthusiast."
+    />
+    <meta
+      name="keywords"
+      content="Devansh Vishwakarma, AI, Machine Learning, Python, Cybersecurity, Portfolio, B.Tech, Software Developer"
+    />
+    <meta name="author" content="Devansh Vishwakarma" />
+    <meta property="og:title" content="Devansh Vishwakarma - Portfolio" />
+    <meta
+      property="og:description"
+      content="AI and Machine Learning Engineer, Python Developer, and Cybersecurity Enthusiast"
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3EDV%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Devansh Vishwakarma | AI and ML Engineer</title>
+  </head>
+  <body>
+    <canvas id="starfield" aria-hidden="true"></canvas>
+    <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <div class="nav-inner">
+        <a class="nav-logo" href="#home" aria-label="Back to top">DV</a>
+        <div class="nav-links" id="desktopNavLinks"></div>
+        <a class="nav-resume" id="navResume" href="./resume.pdf" target="_blank" rel="noopener">
+          Resume
+        </a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true"></div>
+
+    <main>
+      <section class="hero section-panel" id="home">
+        <canvas class="polyhedron-canvas" id="polyhedron" aria-hidden="true"></canvas>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow hero-stagger" id="heroLabel"></p>
+            <h1 class="hero-title" id="heroName"></h1>
+            <p class="hero-subtitle hero-stagger" id="heroSubtitle"></p>
+            <p class="hero-description hero-stagger" id="heroDescription"></p>
+            <div class="hero-actions hero-stagger" id="heroActions"></div>
+            <div class="social-row hero-stagger" id="heroSocial"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container">
+          <p class="section-label reveal">01 // About</p>
+          <h2 class="section-title reveal">
+            Bridging the gap between<br />
+            intelligence and implementation
+          </h2>
+          <div class="about-layout">
+            <div class="profile-frame reveal">
+              <img id="profileImage" src="" alt="" />
+            </div>
+            <div class="about-copy">
+              <div id="aboutText"></div>
+              <div class="stats-grid reveal" id="statsGrid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <p class="section-label reveal">02 // Expertise</p>
+          <h2 class="section-title reveal">Technical Arsenal</h2>
+          <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <p class="section-label reveal">03 // Projects</p>
+          <h2 class="section-title reveal">Featured Work</h2>
+          <div class="filter-row reveal" id="projectFilters"></div>
+          <div class="project-grid" id="projectGrid"></div>
+        </div>
+      </section>
+
+      <section class="section certifications-section" id="certifications">
+        <div class="container">
+          <p class="section-label reveal">04 // Credentials</p>
+          <h2 class="section-title reveal">Certifications and Training</h2>
+          <div class="timeline" id="certificationTimeline"></div>
+        </div>
+      </section>
+
+      <section class="section education-section" id="education">
+        <div class="container">
+          <p class="section-label reveal">05 // Education</p>
+          <h2 class="section-title reveal">Academic Journey</h2>
+          <div class="education-list" id="educationList"></div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <p class="section-label reveal">06 // Contact</p>
+          <h2 class="section-title reveal">
+            Let's Build Something<br />
+            Intelligent Together
+          </h2>
+          <div class="contact-layout">
+            <div class="contact-info reveal" id="contactInfo"></div>
+            <form class="contact-form reveal" id="contactForm">
+              <input type="text" name="name" placeholder="Your Name" autocomplete="name" required />
+              <input type="email" name="email" placeholder="Your Email" autocomplete="email" required />
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+              <button class="primary-btn full-width" type="submit" id="contactSubmit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid" id="footerContent"></div>
+    </footer>
+
+    <noscript>
+      <div class="noscript-note">
+        This portfolio uses JavaScript to load its JSON content. Please enable JavaScript to view it.
+      </div>
+    </noscript>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
